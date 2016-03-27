@@ -43,7 +43,7 @@ body {
 
 @media only screen and (min-width: 25em) {
 
-  .card-img img {
+  .card-img {
     margin: .3rem;
     margin-top: 0;
     display: inline-block;
@@ -62,7 +62,7 @@ body {
   }
 
   .card-body h2 {
-  margin-top: .4rem;
+    margin-top: .4rem;
   }
 
   .cards {
@@ -90,7 +90,7 @@ body {
 
   .card-body {
     width: 200px;
-    font-size: 120%
+    font-size: 120%;
   }
 }
 
@@ -103,5 +103,12 @@ body {
   .card-body {
     width: 300px;
     font-size: 130%;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  .card {
+    width: 300px;
   }
 }
